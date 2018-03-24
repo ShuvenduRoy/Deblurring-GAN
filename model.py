@@ -95,3 +95,17 @@ def discriminator_model():
     return model
 
 
+def generator_containing_discriminator(generator, discriminator):
+    inputs = Input(shape=image_shape)
+    generated_image = generator(inputs)
+    outputs = discriminator(generated_image)
+    model = Model(inputs=inputs, outputs=outputs)
+    return model
+
+
+def generator_containing_discriminator_multiple_outputs(generator, discriminator):
+    inputs = Input(shape=image_shape)
+    generated_image = generator(inputs)
+    outputs = discriminator(generated_image)
+    model = Model(inputs=inputs, outputs=[generated_image, outputs])
+    return model
