@@ -8,3 +8,6 @@ Use:
 
     `python python .\gopro_data_preprocessing.py --dir_in=GOPRO --dir_out=images`
     
+# Architecture
+The generator architecture of the model is given bellow
+![](img/archi.png)
