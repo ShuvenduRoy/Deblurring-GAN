@@ -1,4 +1,5 @@
 import tensorflow as tf
+from keras.backend import image_data_format
 
 from keras.models import Model
 from keras.engine import InputSpec
