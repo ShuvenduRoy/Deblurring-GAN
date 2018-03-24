@@ -2,8 +2,8 @@ import os
 from PIL import Image
 import numpy as np
 
+RESHAPE = (256, 256)
 
-RESHAPE = (256,256)
 
 def is_an_image_file(filename):
     IMAGE_EXTENSIONS = ['.png', '.jpg', '.jpeg']
