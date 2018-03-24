@@ -109,3 +109,6 @@ venv.bak/
 data/
 models/
 results/
+
+images/
+GOPRO/
