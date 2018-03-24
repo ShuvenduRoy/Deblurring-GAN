@@ -2,6 +2,7 @@ import keras.backend as K
 from keras.applications.vgg16 import VGG16
 from keras.models import Model
 
+# input image shape
 image_shape = (256, 256, 3)
 
 
