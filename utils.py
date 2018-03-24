@@ -2,7 +2,7 @@ import os
 from PIL import Image
 import numpy as np
 
-RESHAPE = (256, 256)
+RESHAPE = (128, 128)
 
 
 def is_an_image_file(filename):

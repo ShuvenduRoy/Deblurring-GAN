@@ -3,7 +3,7 @@ from keras.applications.vgg16 import VGG16
 from keras.models import Model
 
 # input image shape
-image_shape = (256, 256, 3)
+image_shape = (128, 128, 3)
 
 
 def l1_loss(y_true, y_pred):

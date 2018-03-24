@@ -10,15 +10,15 @@ from layer_utils import ReflectionPadding2D, res_block
 
 # hyper parameters
 channel_rate = 64
-image_shape = (256, 256, 3)
+image_shape = (128, 128, 3)
 patch_shape = (channel_rate, channel_rate, 3)
 
 ngf = 64
 ndf = 64
 input_nc = 3
 output_nc = 3
-input_shape_generator = (256, 256, input_nc)
-input_shape_discriminator = (256, 256, output_nc)
+input_shape_generator = (128, 128, input_nc)
+input_shape_discriminator = (128, 128, output_nc)
 n_blocks_gen = 9
 
 

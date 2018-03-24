@@ -79,7 +79,7 @@ def train_multiple_outputs(n_images, batch_size, epoch_num, critic_updates=5):
 
 
 @click.command()
-@click.option('--n_images', default=64, help='Number of images to load for training')
+@click.option('--n_images', default=512, help='Number of images to load for training')
 @click.option('--batch_size', default=16, help='Size of batch')
 @click.option('--epoch_num', default=4, help='Number of epochs for training')
 @click.option('--critic_updates', default=5, help='Number of discriminator training')
