@@ -10,4 +10,4 @@ Use:
     
 # Architecture
 The generator architecture of the model is given bellow
-![](img/archi.png)
+![](resource/archi.png)
